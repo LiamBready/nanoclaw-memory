@@ -30,6 +30,12 @@ Output falls into four buckets (mirrors how he organizes his own site):
 - **Speaking** — conference talks, workshops, CFP submissions
 - **Community** — Slack posts, event recaps, internal updates
 
+## Personal
+
+Engaged (fiancée mentioned Aug 23, 2026, name not yet given). They travel
+together — planning a beachfront trip to Malaga, Sep 20-24, 2026, food-
+focused.
+
 ## Outside work
 
 Cooking, eating well, an actively-tended home lab, travel with an eye for
