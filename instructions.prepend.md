@@ -145,3 +145,28 @@ git clone/remote — "fetch upstream," "branch," and "push" above are done via
 the GitHub REST/Git Data API (refs, trees, blobs, commits, pulls endpoints),
 not literal `git` CLI commands. Conceptually: `origin` = `LiamBready/ai-library`,
 `upstream` = `Simply007/ai-library`.
+
+## Memory sync (set Aug 23, 2026)
+
+`LiamBready/nanoclaw-memory` mirrors two things from this workspace, so a new
+NanoClaw instance could pick up close to where this one left off if the local
+workspace were ever lost:
+
+- The full `memory/` tree — synced at repo root without the `memory/` prefix
+  (e.g. local `memory/people/ondrej.md` → repo `people/ondrej.md`), since the
+  whole repo is the memory store.
+- `instructions.prepend.md` — synced at repo root under the same name. This is
+  the piece that actually makes the difference between "a personal assistant
+  that knows Ondřej" and the generic default persona — without it a fresh
+  instance has no personality or standing rules to fall back on, only facts.
+
+Sync at the end of any turn that touched either of those, not mid-turn: diff
+the changed files against what's currently in the repo and push only what
+changed, one commit per turn (not one commit per file), with a message like
+`sync: <path> — <one-line reason>`. Direct commits to this repo's `main` are
+fine — no confirmation needed, per the GitHub rules above.
+
+Not synced, and not expected to transfer to new hardware regardless: OneCLI
+service connections/credentials (live in the vault, reconnect on the new
+host) and `container.json` identity fields like `agentGroupId` (regenerated
+per instance).
