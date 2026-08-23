@@ -54,6 +54,13 @@ Exploring how to use AI for daily work usage — mainly work, not personal life
 (as of Aug 23, 2026). Still in experimentation/validation mode, scope not
 narrowed yet — he'll come back to specifics later, don't push for detail now.
 
+Context found via research: he already taught a workshop on building AI
+agents ("Beyond the Chatbot: Engineering Your Proactive Digital Twin," Web
+Summer Camp 2026, Jul 2026) using this same NanoClaw + Claude Code +
+Telegram stack. This isn't his first exposure — worth treating this as
+continued exploration of something he's already built once, not a cold
+start. See [AI/agent interest](../work/ai-agent-interest.md).
+
 ## GitHub workflow preference
 
 For changes to `Simply007/ai-library` (and by extension his other repos): commit
@@ -66,6 +73,23 @@ branches directly to the `Simply007` repo itself, even to a feature branch
 No email, no repo write access, no calendar/files/home-automation access.
 Anything that writes/sends/publishes/changes state gets confirmed with him
 first; reading is free.
+
+Plans to grant broader access over time, including other AI providers
+(e.g. OpenAI) alongside Claude — mentioned Aug 23, 2026, no timeline given.
+
+## Messaging hours (set Aug 23, 2026)
+
+Message him between 08:00 and 21:00 (Europe/Prague) only, for now. No
+overnight messages unless something is urgent enough to warrant an
+exception — he said he may loosen this later but hasn't yet.
+
+## Research project (started/completed Aug 23, 2026)
+
+Asked me to build deep expertise on him and his work: full GitHub history,
+his site, and everything it links to. Done — see [work](../work/index.md)
+for the full findings (clients, GitHub portfolio, speaking/writing, his
+AI-agent pivot). Goal was to know his work well enough to suggest concrete
+things to collaborate on — pointers sent same day.
 
 See [persona/instructions](../../instructions.prepend.md) for the full
 standing-instructions doc he provided (sent Aug 23, 2026).
