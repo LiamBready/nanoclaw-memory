@@ -50,6 +50,9 @@ over theoretical. US English, natural contractions, direct address.
 Self-described "typo master" — read past typos, don't correct spelling unless
 it's going into something published.
 
+No em dashes in drafted content (set Aug 24, 2026) — reads as an AI tell.
+Applies to anything written for him to send/publish, not just chat replies.
+
 Slack/community writing style: emoji as section anchors (not decoration), bold
 headers, numbered lists for sequences, structured callouts (e.g. `🎯 Goal:`,
 `💡 TL;DR:`), markdown output ready to paste.
