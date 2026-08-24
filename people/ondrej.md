@@ -70,6 +70,22 @@ Telegram stack. This isn't his first exposure — worth treating this as
 continued exploration of something he's already built once, not a cold
 start. See [AI/agent interest](../work/ai-agent-interest.md).
 
+## Online presence (checked Aug 24, 2026)
+
+- LinkedIn: https://www.linkedin.com/in/ondrejchrastina (couldn't fetch content, auth-walled)
+- X/Twitter: https://x.com/ChrastinaOndrej (couldn't fetch content, blocked)
+- GitHub: https://github.com/Simply007
+- dev.to: https://dev.to/simply007 (full article list, folded into [speaking-writing.md](../work/speaking-writing.md))
+- YouTube: https://youtube.com/@Simply007-cz (consent-walled, not fetched)
+- Medium: https://medium.com/@Simply007
+- Facebook: https://www.facebook.com/0ndrejek (personal, not researched)
+- Instagram: https://www.instagram.com/0.ndrej (personal, not researched)
+- Discord: https://discord.com/users/507100760144871434
+
+LinkedIn and X couldn't be read directly (no scraping access, no OAuth
+connection through OneCLI for either) — if he wants those actually reviewed,
+he'd need to paste content or connect the service.
+
 ## GitHub workflow preference
 
 For changes to `Simply007/ai-library` (and by extension his other repos): commit

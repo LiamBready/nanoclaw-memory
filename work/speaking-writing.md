@@ -39,9 +39,13 @@ https://youtube.com/playlist?list=PLZ9F0R17Zg3NafacHVuYqghN3ikNMgoMs
 ## Notable writing
 
 - "CKEditor 5 Pitfall: Don't Forget the Paragraph Plugin" (Jun 2025)
+- "DrupalCon Chicago 2026: How I vibe-coded my first custom Drupal module extending CKEditor" (Apr 2026)
+- "AI Conference 2025 - CKEditor in da house" (Oct 2025)
 - "From Prototype to Purpose: The Journey of Our Custom Elements at Kontent.ai" (Feb 2025)
 - "How I Turned Kubernetes Into a Fun, Kid-Friendly YouTube Short" (Feb 2025)
 - PWA series on Medium/freeCodeCamp (2019-2020 era)
+
+Full article list: https://dev.to/simply007
 
 ## Recurring topics
 
