@@ -9,3 +9,5 @@ full research pass on his GitHub, personal site, and public profiles
 - [GitHub portfolio](github-portfolio.md) - repos, stack, activity pattern
 - [Speaking and writing](speaking-writing.md) - talks, webinars, articles
 - [AI/agent engineering pivot](ai-agent-interest.md) - his personal 2026 shift into building AI agents, directly relevant to me
+- [Litepacks inbound](litepacks-inbound.md) - LinkedIn lead, Aug 24 2026, possible DevRel consulting
+- [DevRel consulting offering](devrel-business-idea.md) - long-term plan for dev-relations.com, not immediate
