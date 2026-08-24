@@ -83,8 +83,17 @@ start. See [AI/agent interest](../work/ai-agent-interest.md).
 - Discord: https://discord.com/users/507100760144871434
 
 LinkedIn and X couldn't be read directly (no scraping access, no OAuth
-connection through OneCLI for either) — if he wants those actually reviewed,
+connection through OneCLI for either), if he wants those actually reviewed,
 he'd need to paste content or connect the service.
+
+Checked crawler options for LinkedIn (Aug 24, 2026, his idea, wanted Apify
+considered): official OAuth only returns name/photo/email, not headline or
+posts. Browser automation with a saved login session works technically but
+violates LinkedIn's user agreement, risking his account. Third-party
+scrapers (Apify, Proxycurl, Bright Data, PhantomBuster) run $50-500+/mo and
+carry real legal exposure, Proxycurl got sued by LinkedIn/Microsoft and shut
+down in 2026. Recommendation given: not worth it for reading his own
+profile, just paste content manually when needed.
 
 ## GitHub workflow preference
 
