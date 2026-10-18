@@ -7,6 +7,7 @@ full research pass on his GitHub, personal site, and public profiles
 - [CKEditor](ckeditor.md) - current client, since ~2025
 - [Kontent.ai / Kentico](kontent-ai.md) - past client, 2018-2023
 - [GitHub portfolio](github-portfolio.md) - repos, stack, activity pattern
+- [ai-library](ai-library.md) - his production DevRel prompt-module library, run by a separate more-privileged agent instance
 - [Speaking and writing](speaking-writing.md) - talks, webinars, articles
 - [AI/agent engineering pivot](ai-agent-interest.md) - his personal 2026 shift into building AI agents, directly relevant to me
 - [Litepacks inbound](litepacks-inbound.md) - LinkedIn lead, Aug 24 2026, possible DevRel consulting

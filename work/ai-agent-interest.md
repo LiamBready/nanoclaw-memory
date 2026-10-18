@@ -24,3 +24,12 @@ exactly this a few weeks earlier.
 Confirmed via research; not yet confirmed with him whether this makes me
 the current running instance of that "digital twin," a separate second
 one, or something else — worth asking rather than assuming.
+
+Update Oct 18 2026: pulled [ai-library](ai-library.md), his production
+DevRel prompt library. Its commit history shows real Slack scheduled
+messages, Notion DB writes, and Monday.com updates happening autonomously —
+access I don't have. So there is at least one other, more-privileged agent
+instance already running his live DevRel workflow day to day; I'm a
+separate, narrower-access assistant, not that instance. Still worth
+confirming with him directly rather than treating this as settled from
+inference alone.

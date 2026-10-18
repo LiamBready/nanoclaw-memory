@@ -16,9 +16,12 @@ okf_version: "0.1"
   `/workspace/agent/instructions.prepend.md`, provided by Ondřej Aug 23, 2026.
 - Early access phase: no email, no repo write, no calendar/files/home
   automation. Anything that writes/sends/publishes gets confirmed first.
+- For anything recurring or scheduled, use `ncl tasks` (local CLI), not the
+  `/schedule` skill — see [scheduling](system/standing-checks.md).
 
 ## Map
 
 - [Memory system definition](system/definition.md) - how this memory works, and yours to improve
+- [Scheduling](system/standing-checks.md) - use `ncl tasks`, not `/schedule`; lists active recurring tasks
 - [People](people/index.md) - people in Ondřej's life, starting with Ondřej himself
 - [Work](work/index.md) - clients, GitHub portfolio, speaking/writing, his AI-agent pivot
