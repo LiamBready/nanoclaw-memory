@@ -68,12 +68,25 @@ more-privileged agent instance already running his live DevRel workflow
 day to day. I am a separate, narrower-access assistant — not that instance.
 Worth confirming with him directly rather than treating this as settled.
 
-## State as of Oct 18 2026
+## State as of Oct 26 2026 (re-pulled; previous check was Oct 18)
 
-- Upstream `main` only has one open PR: **#5**, "n8n + CKEditor AI showcase:
-  Branded Report Generator" — his own draft, not mine, still open.
-- Everything else (modules #2, #3, #4, #6, #8, #9, #10, #11) is merged/closed.
-- Recent real usage: Rotterdam trip expense report (sent, then corrected),
-  PCDD 2026 speaking announcements across LinkedIn/X/Bluesky/Reddit,
-  devrel-schedule swaps (fintech_devcon moved twice, Cybercamp.ai, Pimcore
-  speaking slot), a Reddit reply on r/buildinpublic.
+- Upstream `main` open PRs: **#5** "n8n + CKEditor AI showcase: Branded
+  Report Generator" (his own draft, still open, unchanged) and **#13**
+  "PCDD 2026: Pimcore research notes and talk outline updates" (draft,
+  opened Oct 19 — prep for the Pimcore Community Dev Days talk, Frankfurt,
+  Nov 10 2026; confirmed 45 min incl. Q&A; open items include a framing
+  decision — keep "agent-readiness" vs. widen to "AI into your product" —
+  and closing remaining research threads).
+- **#12** "CFPs 2027 vol. 1: event CFPs, conference research, speaking
+  guides" merged Oct 19 — everything else (#2-#4, #6, #8-#11) merged/closed
+  as before.
+- Module directory unchanged since Oct 18 — same ~15 modules (incl. the
+  superseded `webinar-helper`, kept alongside `webinar-workflow`).
+- Notable: `personal-website-sync` now explicitly skips `talk-*-research`
+  files from its crawl, so internal research notes never reach the public
+  site — a deliberate publish/don't-publish boundary worth knowing before
+  assuming everything in `_outputs/` is public-bound.
+- Recent real usage (pre-Oct 18, unchanged from last check): Rotterdam trip
+  expense report, PCDD 2026 speaking announcements across
+  LinkedIn/X/Bluesky/Reddit, devrel-schedule swaps, a Reddit reply on
+  r/buildinpublic.

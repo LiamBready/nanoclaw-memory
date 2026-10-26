@@ -35,7 +35,14 @@ reaching for hooks or claude.ai Routines.
 ## Active recurring tasks
 
 - `eur-czk-check` — daily 09:00, reports EUR→CZK rate + trend to Ondrej
-  (he's watching for a good moment to convert EUR to CZK).
+  (he's watching for a good moment to convert EUR to CZK). Format fixed
+  2026-10-23 per his request — no free text, exactly:
+  ```
+  EUR/CZK
+  Today: <rate>
+  Yesterday: <rate> (<+/- diff>)
+  <one sentence on the 7-day trend>
+  ```
 - `nanoclaw-capability-check` — weekly Monday 09:00, diffs NanoClaw
   skills/capabilities against `nanoclaw-capabilities-snapshot.md`, only
   messages Ondrej if something new/usable is found.
