@@ -47,6 +47,17 @@ https://youtube.com/playlist?list=PLZ9F0R17Zg3NafacHVuYqghN3ikNMgoMs
 
 Full article list: https://dev.to/simply007
 
+## In progress
+
+- **NG-Poland AI Conference (pre-recorded, 20 min)** — invite via Darek,
+  recording day Thu Oct 29 2026. Topic: generalized/JS-focused "AI best
+  practices for your product + letting AI reach your product and docs" — the
+  same "Teach the Agents Well" material already built for PCDD 2026 (see
+  [ai-library.md](ai-library.md)) and submitted to React Summit 2027, just
+  de-React'd and condensed to 20 min. Draft outline + key points + a
+  Claude slide-design prompt stored at
+  `drafts/ng-poland-ai-conf-2026-talk.md`. Scheduled a ping for Thu 9:00am.
+
 ## Recurring topics
 
 CKEditor/rich-text editing + AI; headless CMS ecosystem (Kontent.ai,

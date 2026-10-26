@@ -20,8 +20,10 @@ working: creation succeeded, two-way messaging via `send_message({to:
 "liam-test", ...})` worked immediately. Superseded by `ai-library-reviewer`
 below (2026-10-26) — kept it a throwaway rather than repurposing it, since
 "liam-test" is a bad permanent name and `create_agent` has no rename, only
-create. Still running, no real purpose now; pending Ondřej's OK to tear it
-down (likely needs a host-side `ncl groups` command, outside my access).
+create. Ondřej confirmed teardown 2026-10-26. I have no `delete_agent` /
+teardown MCP tool (checked via ToolSearch — only `create_agent` exists on my
+side); tearing it down needs a host-level `ncl groups` command. Flagged back
+to him; still pending whoever has host access.
 
 ## Built: `ai-library-reviewer` (editorial pre-flight reviewer)
 
