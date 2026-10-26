@@ -61,11 +61,18 @@ Full article list: https://dev.to/simply007
   `ai_best_practices` skill he contributed (MR !105, 83% vs 39% eval).
   Outline, script, and slide-design prompt at
   `drafts/ng-poland-ai-conf-2026-talk.md`. Scheduled a ping for Thu 9:00am.
-  He also asked about an animated-avatar video; no tool for that is
-  connected (checked OpenAI API too — not connected in this environment),
-  and even a ChatGPT/Claude subscription isn't the right product for it
-  (that's Synthesia/HeyGen/Sora-cameo territory, not something drivable via
-  API on his behalf).
+  Avatar-video thread: no avatar/video tool connected (checked OpenAI API
+  too — not connected in this environment); tried a DIY angle (headless
+  Chromium + ffmpeg screen-capture of a slide deck, since he'll narrate
+  separately — "I can do the voiceover with my head later") — Chromium is
+  present but ffmpeg and any browser-automation lib aren't, and no slide
+  deck is actually built yet, only the design prompt. 2026-10-26: he added
+  a standing todo to **explore HeyGen (paid subscription) vs. a real
+  recording — authenticity question** — meant for the Notion DevRel Board,
+  but I have no Notion access (that board belongs to the other,
+  more-privileged agent instance running `ai-library`, see
+  [ai-library.md](ai-library.md)); logging it here instead until he adds it
+  himself or routes it over there.
 
 ## Recurring topics
 
