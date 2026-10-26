@@ -90,3 +90,11 @@ Worth confirming with him directly rather than treating this as settled.
   expense report, PCDD 2026 speaking announcements across
   LinkedIn/X/Bluesky/Reddit, devrel-schedule swaps, a Reddit reply on
   r/buildinpublic.
+- **Not a data error, just two different webinars** (resolved 2026-10-26): I initially mixed up
+  `_outputs/webinar-2026-04-09-ckeditor-ai-on-premises.md` (on-premises deployment, co-presenter
+  "Marcin Dusza" — a real, separate webinar, nothing wrong with that file) with the one Ondřej
+  actually meant, `_outputs/webinar-2026-09-17-ai-coding-agents.md` ("Less time, fewer tokens,
+  better effects," with Marcin Burek — the readable-docs/MCP-server/skill ladder). Both webinars
+  and both Marcins are legitimate; I just grabbed the wrong one for an ng-poland talk draft (see
+  [speaking-writing.md](speaking-writing.md)). Worth double-checking which webinar a request
+  means when CKEditor + Marcin + AI come up together — there's more than one.

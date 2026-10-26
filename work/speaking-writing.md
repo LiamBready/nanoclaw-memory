@@ -53,14 +53,19 @@ Full article list: https://dev.to/simply007
   recording day Thu Oct 29 2026. Restructured 2026-10-26 (per Ondřej) away
   from the generic/anonymized "Teach the Agents Well" framing (still the
   PCDD 2026 / React Summit 2027 material, see
-  [ai-library.md](ai-library.md)) into two named case studies:
-  CKEditor's on-premises AI/MCP-tool-registration practices from the webinar
-  with PM Marcin [Dusza per the source file — Ondřej said "Burek," unconfirmed
-  which], and the Drupal `ai_best_practices` skill he contributed (MR !105,
-  83% vs 39% eval). Outline, script, and slide-design prompt at
+  [ai-library.md](ai-library.md)) into two named case studies: CKEditor's
+  own readable-docs/MCP-server/skill ladder from the Sep 17 2026 webinar
+  "Less time, fewer tokens, better effects" with PM **Marcin Burek** (first
+  pass wrongly used a different, unrelated on-premises webinar — corrected
+  after Ondřej flagged the content didn't match), and the Drupal
+  `ai_best_practices` skill he contributed (MR !105, 83% vs 39% eval).
+  Outline, script, and slide-design prompt at
   `drafts/ng-poland-ai-conf-2026-talk.md`. Scheduled a ping for Thu 9:00am.
-  Open: confirm the Marcin name; he also asked about an animated-avatar video,
-  which isn't possible with any tool currently connected.
+  He also asked about an animated-avatar video; no tool for that is
+  connected (checked OpenAI API too — not connected in this environment),
+  and even a ChatGPT/Claude subscription isn't the right product for it
+  (that's Synthesia/HeyGen/Sora-cameo territory, not something drivable via
+  API on his behalf).
 
 ## Recurring topics
 
