@@ -50,13 +50,17 @@ Full article list: https://dev.to/simply007
 ## In progress
 
 - **NG-Poland AI Conference (pre-recorded, 20 min)** — invite via Darek,
-  recording day Thu Oct 29 2026. Topic: generalized/JS-focused "AI best
-  practices for your product + letting AI reach your product and docs" — the
-  same "Teach the Agents Well" material already built for PCDD 2026 (see
-  [ai-library.md](ai-library.md)) and submitted to React Summit 2027, just
-  de-React'd and condensed to 20 min. Draft outline + key points + a
-  Claude slide-design prompt stored at
+  recording day Thu Oct 29 2026. Restructured 2026-10-26 (per Ondřej) away
+  from the generic/anonymized "Teach the Agents Well" framing (still the
+  PCDD 2026 / React Summit 2027 material, see
+  [ai-library.md](ai-library.md)) into two named case studies:
+  CKEditor's on-premises AI/MCP-tool-registration practices from the webinar
+  with PM Marcin [Dusza per the source file — Ondřej said "Burek," unconfirmed
+  which], and the Drupal `ai_best_practices` skill he contributed (MR !105,
+  83% vs 39% eval). Outline, script, and slide-design prompt at
   `drafts/ng-poland-ai-conf-2026-talk.md`. Scheduled a ping for Thu 9:00am.
+  Open: confirm the Marcin name; he also asked about an animated-avatar video,
+  which isn't possible with any tool currently connected.
 
 ## Recurring topics
 
