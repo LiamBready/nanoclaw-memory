@@ -12,9 +12,10 @@ DevRel operations. Learned by pulling the repo directly, Oct 18 2026 (see
 [GitHub rules](../index.md) in persona for repo roles).
 
 - Upstream: `Simply007/ai-library` (his repo, read-and-propose-only for me)
-- My fork: `LiamBready/ai-library` (where I'd stage any contribution) — as
-  of Oct 18 2026 has no branches beyond `main` and one closed test PR (#7).
-  No live work from me there.
+- My fork: `LiamBready/ai-library` (where I stage contributions) — as of
+  Oct 29 2026 has branch `liam/ng-poland-talk-outline`, open as upstream PR
+  #14 (see below). Prior state (through Oct 18) was just `main` plus one
+  closed test PR (#7).
 
 ## What it is
 
@@ -68,10 +69,25 @@ more-privileged agent instance already running his live DevRel workflow
 day to day. I am a separate, narrower-access assistant — not that instance.
 Worth confirming with him directly rather than treating this as settled.
 
-## State as of Oct 26 2026 (re-pulled; previous check was Oct 18)
+## State as of Oct 29 2026 (re-pulled; previous check was Oct 26)
 
-- Upstream `main` open PRs: **#5** "n8n + CKEditor AI showcase: Branded
-  Report Generator" (his own draft, still open, unchanged) and **#13**
+- **#14** "NG-Poland 2026: Teach the Agents Well talk outline + deliverables"
+  (mine, opened Oct 29, `liam/ng-poland-talk-outline` → `main`, still open) —
+  my first real contribution to this repo. Adds
+  `_outputs/talk-ng-poland-2026-teach-the-agents-well.md` (talk-outline-writer
+  format, source: `drafts/ng-poland-ai-conf-2026-talk.md`) plus the produced
+  deliverables under `_assets/`: `ng-poland-slides.html` (16-slide deck),
+  `ng-poland-subtitles.srt`, `ng-poland-reference-video.mp4` (silent, 20:00
+  exact). Narration still open, Ondřej plans his own voiceover. Found the
+  `_assets/` reference convention via GitHub code search: other `_outputs/`
+  files link assets with a relative path one level up, e.g.
+  `../_assets/css-highlights-prototype-demo.mp4` (seen in
+  `_outputs/devrel-post-2026-10-01-css-highlight-api-prototype.md`'s
+  frontmatter `images:` field); used the same relative-path style in the new
+  file's body since talk-outline-writer's frontmatter schema has no asset
+  field of its own.
+- Upstream `main` open PRs otherwise unchanged: **#5** "n8n + CKEditor AI
+  showcase: Branded Report Generator" (his own draft, still open) and **#13**
   "PCDD 2026: Pimcore research notes and talk outline updates" (draft,
   opened Oct 19 — prep for the Pimcore Community Dev Days talk, Frankfurt,
   Nov 10 2026; confirmed 45 min incl. Q&A; open items include a framing
