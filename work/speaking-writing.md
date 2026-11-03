@@ -111,9 +111,10 @@ Full article list: https://dev.to/simply007
     other changes. Closed #13 (with Ondřej's explicit one-off override of
     the "never close his PRs" rule — rule itself stays as-is, he wants to
     keep approving this case by case) with a comment pointing to #18.
-    #18 is `mergeable: clean` as of 2026-11-03 13:40 — but given how often
-    `main` is moving (another, more-privileged agent instance is actively
-    merging PRs here), it may need yet another rebase before he merges it.
+    **#18 merged 2026-11-03 ~12:44 UTC** — the rebased prep work (CFP,
+    outline, research doc, mapping.md update) is now on upstream `main`.
+    Branch work on this talk is done for now; next step is him actually
+    writing/revising content, including the "new story" noted above.
 
 ## Recurring topics
 
