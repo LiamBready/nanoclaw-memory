@@ -33,3 +33,30 @@ instance already running his live DevRel workflow day to day; I'm a
 separate, narrower-access assistant, not that instance. Still worth
 confirming with him directly rather than treating this as settled from
 inference alone.
+
+## MCP OAuth capabilities (researched Nov 2, 2026)
+
+Asked me to research OAuth for MCP, likely in connection with a Pimcore talk
+(unconfirmed — no record of that talk yet, see
+[speaking-writing.md](speaking-writing.md)). Current spec (2026-07-28 rev):
+
+- Authorization is OPTIONAL in MCP, applies to HTTP transports only (STDIO
+  uses env-provided credentials instead).
+- Roles map directly to OAuth 2.1: MCP server = resource server, MCP client
+  = OAuth client, separate authorization server issues tokens.
+- MCP servers MUST implement OAuth 2.0 Protected Resource Metadata
+  (RFC9728); clients MUST use it for AS discovery, then MUST support both
+  OAuth Authorization Server Metadata (RFC8414) and OIDC Discovery.
+- Client registration: three options, priority order is Client ID Metadata
+  Documents (CIMD, now the recommended approach) > pre-registration >
+  Dynamic Client Registration (RFC7591, now deprecated/back-compat only —
+  this flipped in the 2026-07-28 revision).
+- PKCE (S256) required; `resource` parameter (RFC8707) required on both
+  auth and token requests to bind the token to the specific MCP server;
+  issuer validation (RFC9207 `iss` param) required to prevent mix-up
+  attacks.
+- Scope handling: servers should return required scopes directly in the
+  `WWW-Authenticate` challenge; clients do incremental step-up auth
+  (union of previously-granted + newly-challenged scopes) rather than
+  over-requesting upfront.
+- Full spec: https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization
