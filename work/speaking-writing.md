@@ -74,6 +74,47 @@ Full article list: https://dev.to/simply007
   [ai-library.md](ai-library.md)); logging it here instead until he adds it
   himself or routes it over there.
 
+- **"Preparing AI Best Practices for Your Product: Lessons from CKEditor,
+  Drupal, and TYPO3"** — Pimcore Community Dev Days 2026, Frankfurt,
+  2026-11-10, 45 min incl. Q&A (confirmed 2026-10-19). Lives in the
+  `ai-library` repo (`Simply007/ai-library`, upstream — not my fork), not
+  as local drafts here. Status: draft. Found on upstream branch
+  `pcdd26-pimcore-research` (3 commits ahead of `main`, last commit
+  2026-10-19) — confirmed pushed, per his hope Nov 2. That branch is now
+  **29 commits behind `main`**, so it's stale and needs rebasing before
+  more work lands on it.
+  - Key files: `_outputs/talk-pcdd-2026-ai-best-practices-product.md`
+    (outline), `_outputs/talk-pcdd-2026-ai-best-practices-product-research.md`
+    (event/Pimcore/Copilot/Agent Bundle/observability research),
+    `_outputs/cfp-pimcore-community-dev-days-2026-ai-best-practices.md` (CFP).
+  - Audience note from the outline: Pimcore/Symfony/PHP devs, intermediate
+    to senior, AI-curious but skeptical — some saw a Pimcore RAG+MCP talk
+    and an Agentic PXM masterclass at the 2025 edition already.
+  - He asked (Nov 2) for an OAuth-for-MCP research pass, probably feeding
+    this talk's Copilot/Agent Bundle material — see
+    [ai-agent-interest.md](ai-agent-interest.md) for that research.
+  - He said he has a new story for the talk "once I start working on it" —
+    noted here to resurface when he picks this up.
+  - He asked for a prep branch, suspecting one exists — it does
+    (`pcdd26-pimcore-research` above, PR #13 on upstream). Per the GitHub
+    rules in CLAUDE.md, `Simply007/ai-library` is upstream: I can
+    read/propose but never push or commit there directly, so instead of
+    touching that branch I rebased it. 2026-11-02: created
+    `liam/pcdd26-pimcore-prep` on my fork (`LiamBready/ai-library`) with
+    the same 3 commits replayed on top of current upstream `main`, opened
+    as **PR #18** against `Simply007/ai-library` `main`. Conflict both
+    times on `personal-website-sync/mapping.md` line 31 ("Skipped" list) —
+    other work keeps landing on `main` adding its own clause to that same
+    line (first the pre-existing `launch-*`/`interview-*`/etc. wording,
+    then PR #17's `decision-*` clause); each time, merged this PR's
+    `talk-*-research` addition in alongside rather than reverting the
+    other changes. Closed #13 (with Ondřej's explicit one-off override of
+    the "never close his PRs" rule — rule itself stays as-is, he wants to
+    keep approving this case by case) with a comment pointing to #18.
+    #18 is `mergeable: clean` as of 2026-11-03 13:40 — but given how often
+    `main` is moving (another, more-privileged agent instance is actively
+    merging PRs here), it may need yet another rebase before he merges it.
+
 ## Recurring topics
 
 CKEditor/rich-text editing + AI; headless CMS ecosystem (Kontent.ai,
